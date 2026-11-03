@@ -1,0 +1,47 @@
+.banner {
+  background-image: linear-gradient(#0D0D0F99, #0D0D0F99), url('../../images/background.png');
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0;
+}
+
+.banner h1 {
+  color: #F5F5F7;
+  font-size: 48px;
+  font-weight: bold;
+  text-shadow: 0 0 20px #B026FFCC;
+}
+
+.banner p {
+  font-size: 20px;
+  color: #F5F5F7;
+}
+
+.banner a {
+  display: inline-block;
+  background-color: #FF9500;
+  padding: 16px 32px;
+  border-radius: 16px;
+  color: #0D0D0F;
+  font-weight: bold;
+  transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
+}
+
+.banner a:hover {
+  transform: translateY(-2px);
+  background-color: #B026FF;
+  color: #F5F5F7;
+  box-shadow: 0 0 20px #B026FFCC;
+}
+
+@media (max-width: 900px) {
+  .banner h1 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 600px) {
+  .banner h1 {
+    font-size: 28px;
+  }
+}

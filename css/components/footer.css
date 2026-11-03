@@ -1,0 +1,17 @@
+.footer {
+  background-color: #1A1A22;
+  border-top: 1px solid #B026FF;
+  padding: 60px;
+}
+
+.footer .links a {
+  font-size: 32px;
+  color: #FF9500;
+  margin: 0 12px;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+.footer .links a:hover {
+  color: #D580FF;
+  text-shadow: 0 0 12px #B026FFCC;
+}
